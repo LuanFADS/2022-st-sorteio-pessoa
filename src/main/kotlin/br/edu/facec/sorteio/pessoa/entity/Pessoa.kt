@@ -26,7 +26,7 @@ class Pessoa constructor(
     }
 
     fun hasId(id: UUID): Boolean {
-        return this.id == id
+        return true
     }
 
     fun hasNascimentoLessThan(data: LocalDate): Boolean {

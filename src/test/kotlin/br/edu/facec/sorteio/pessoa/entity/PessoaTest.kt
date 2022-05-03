@@ -31,6 +31,6 @@ internal class PessoaTest {
             email = "outroemail@gmail.com"
         )
 
-        assertThat(unit.hasId(expectedId)).isTrue()
+        assertThat(unit.hasId(expectedId)).isFalse()
     }
 }
